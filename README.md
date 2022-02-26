@@ -1,3 +1,2 @@
-# RANS Entertainment
-Hanya sebuah uiux aplikasi Rans yang iseng iseng saya buat
-tidak terdapat database didalamnya
+# Hadiah Hari Ibu
+Aplikasi sederhana di tanggal 22 Desember untuk Ibu tercinta
