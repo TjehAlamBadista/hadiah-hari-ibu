@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background22"
+    tools:context=".ActivityDelapan">
+
+    <LinearLayout
+        android:id="@+id/ll_dua"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_margin="100dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/deden1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_maap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/allerta"
+        android:text="Tjeh Alam Badista"
+        android:textSize="18sp"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_dua" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cutive_mono"
+        android:layout_marginTop="4dp"
+        android:text="Yogyakarta, 22 Desember 2021"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_maap" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
